@@ -1,0 +1,1014 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_1b623d27_5dcd_40c1_b66a_7c22f9a463b9 -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_1b623d27_5dcd_40c1_b66a_7c22f9a463b9">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">use</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_8c8f4c83_0d0b_4b63_9e98_e04ed2945505 -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_8c8f4c83_0d0b_4b63_9e98_e04ed2945505">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">hasPart</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_8d4fa6ff_3af1_40df_a6e1_926caabf5fe3 -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_8d4fa6ff_3af1_40df_a6e1_926caabf5fe3">
+        <rdfs:label xml:lang="en">realize</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154 -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">partOf</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_b76ea58c_1e43_4d7c_aa47_fbb832cd0824 -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_b76ea58c_1e43_4d7c_aa47_fbb832cd0824">
+        <rdfs:label xml:lang="en">support</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLDataProperty_79fa4cda_dcee_47f7_ba0d_7b25b97c84a2 -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLDataProperty_79fa4cda_dcee_47f7_ba0d_7b25b97c84a2">
+        <rdfs:label xml:lang="en">Vision</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLDataProperty_8f78b5d3_0297_415c_9da8_9f0e21cd6afd -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLDataProperty_8f78b5d3_0297_415c_9da8_9f0e21cd6afd">
+        <rdfs:label xml:lang="en">Mission</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_00ff92b3_947f_4e13_b71c_0d6434c4aef2 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_00ff92b3_947f_4e13_b71c_0d6434c4aef2">
+        <rdfs:label xml:lang="en">Operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_02558871_f13f_42f5_bca7_2e2c495e5b3c -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_02558871_f13f_42f5_bca7_2e2c495e5b3c">
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_0b683b10_b838_4aaa_8996_a97432159a6e -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_0b683b10_b838_4aaa_8996_a97432159a6e">
+        <rdfs:label xml:lang="en">Artifact</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_0c5a26ef_d766_4626_bfd8_659cb1b8430c -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_0c5a26ef_d766_4626_bfd8_659cb1b8430c">
+        <rdfs:label xml:lang="en">Policy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_0f2d4b60_be22_42ab_b886_f49e618d76f5 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_0f2d4b60_be22_42ab_b886_f49e618d76f5">
+        <rdfs:label xml:lang="en">Web Service</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ae0f2ec3_27de_49e8_9a6f_5e642c67292d"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_10ef8b5a_82d0_4a75_8994_875d9508a236 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_10ef8b5a_82d0_4a75_8994_875d9508a236">
+        <rdfs:label xml:lang="en">Enterprise Continuume</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_1177073f_8b1e_4872_aad2_2ba16ef68cad -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_1177073f_8b1e_4872_aad2_2ba16ef68cad">
+        <rdfs:label xml:lang="en">Department</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_11dd5730_eb6c_43de_9ece_67ea417138a1 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_11dd5730_eb6c_43de_9ece_67ea417138a1">
+        <rdfs:label xml:lang="en">Architecture Governance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_12a64e1d_606e_4260_8445_04659f351ff6 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_12a64e1d_606e_4260_8445_04659f351ff6">
+        <rdfs:label xml:lang="en">Business Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3eee8ed4_b4bb_4187_a775_5c2676f6c48d"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_1441e45b_69c9_412b_8715_f1195d551149 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_1441e45b_69c9_412b_8715_f1195d551149">
+        <rdfs:label xml:lang="en">Atomic Service</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ae0f2ec3_27de_49e8_9a6f_5e642c67292d"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_171d3cea_3a9d_4727_9cb4_3c397b2eb3fe -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_171d3cea_3a9d_4727_9cb4_3c397b2eb3fe">
+        <rdfs:label xml:lang="en">Tools</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_53147fe9_e3fb_4bb3_b1c1_c8a5f36daecc"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_1f555389_9a29_4da3_bee2_650dbbd8173d -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_1f555389_9a29_4da3_bee2_650dbbd8173d">
+        <rdfs:label xml:lang="en">Architectural Pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_77e5eaf5_59ba_482b_8db0_2999a22f0491"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_235f5804_fdd4_4f73_a96b_16dfe6cf87bb -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_235f5804_fdd4_4f73_a96b_16dfe6cf87bb">
+        <rdfs:label xml:lang="en">Agility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_239a082c_f3d0_4657_a710_19f285a10280 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_239a082c_f3d0_4657_a710_19f285a10280">
+        <rdfs:label xml:lang="en">Baseline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_251f2a5a_d212_44d7_b422_27bf05572e45 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_251f2a5a_d212_44d7_b422_27bf05572e45">
+        <rdfs:label xml:lang="en">COTS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_2523f166_9143_49f6_aa64_60a0941e712d -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_2523f166_9143_49f6_aa64_60a0941e712d">
+        <rdfs:label xml:lang="en">Framework</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_267e004e_e040_4b93_898d_ecea8619a06e -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_267e004e_e040_4b93_898d_ecea8619a06e">
+        <rdfs:label xml:lang="en">Blueprint</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_31dad0a9_7d2e_4fdc_8b23_2da00ddbdd73 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_31dad0a9_7d2e_4fdc_8b23_2da00ddbdd73">
+        <rdfs:label xml:lang="en">System Architecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_171d3cea_3a9d_4727_9cb4_3c397b2eb3fe"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3843cfc3_8a6f_47f9_b11a_1fa7f4f7929a -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3843cfc3_8a6f_47f9_b11a_1fa7f4f7929a">
+        <rdfs:label xml:lang="en">Service Level Agreement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_391ee79f_51c8_4b4e_a459_50a685d0a371 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_391ee79f_51c8_4b4e_a459_50a685d0a371">
+        <rdfs:label xml:lang="en">Best Practice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3d42d27f_c00a_446f_81d0_58b7033aee82 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3d42d27f_c00a_446f_81d0_58b7033aee82">
+        <rdfs:label xml:lang="en">Domain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3eee8ed4_b4bb_4187_a775_5c2676f6c48d -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3eee8ed4_b4bb_4187_a775_5c2676f6c48d">
+        <rdfs:label xml:lang="en">Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_40f9c871_4400_4fc3_97b8_b57e5ea0afb9 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_40f9c871_4400_4fc3_97b8_b57e5ea0afb9">
+        <rdfs:label xml:lang="en">Business Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3eee8ed4_b4bb_4187_a775_5c2676f6c48d"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_4bb359cc_3b15_48e2_b857_14b9041900c6 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_4bb359cc_3b15_48e2_b857_14b9041900c6">
+        <rdfs:label xml:lang="en">Standard Language</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_53147fe9_e3fb_4bb3_b1c1_c8a5f36daecc"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_50a6c17c_c506_445a_86ef_df1e22bfd783 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_50a6c17c_c506_445a_86ef_df1e22bfd783">
+        <rdfs:label xml:lang="en">Technical Reference Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_793baa32_8a65_4320_92bf_1f7917954976"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_51fab50f_f155_46ac_bec4_e8dcb47077da -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_51fab50f_f155_46ac_bec4_e8dcb47077da">
+        <rdfs:label xml:lang="en">Service Oriented Enterprise Architecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_bbfb2eaa_5a44_4bbf_be86_2b8d9e1b429c"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_53147fe9_e3fb_4bb3_b1c1_c8a5f36daecc -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_53147fe9_e3fb_4bb3_b1c1_c8a5f36daecc">
+        <rdfs:label xml:lang="en">Technology</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_54ae9bce_fbc5_42a3_a3a4_f84ad9b3778e -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_54ae9bce_fbc5_42a3_a3a4_f84ad9b3778e">
+        <rdfs:label xml:lang="en">Methodology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_2523f166_9143_49f6_aa64_60a0941e712d"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_55d36be8_8678_4342_b279_e02ea232c043 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_55d36be8_8678_4342_b279_e02ea232c043">
+        <rdfs:label xml:lang="en">Interoperability</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_96d41dbb_05d4_4265_a6b7_72ee87bfdeea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5626a5a4_1199_42e4_855a_37ba2ac8fd8e -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5626a5a4_1199_42e4_855a_37ba2ac8fd8e">
+        <rdfs:label xml:lang="en">Design Pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_77e5eaf5_59ba_482b_8db0_2999a22f0491"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8">
+        <rdfs:label xml:lang="en">Business</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_684fe0ed_0460_40e4_b405_bf71aadd312b -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_684fe0ed_0460_40e4_b405_bf71aadd312b">
+        <rdfs:label xml:lang="en">Process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_6cc38244_b38c_40b5_9de8_4dff396a5199 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_6cc38244_b38c_40b5_9de8_4dff396a5199">
+        <rdfs:label xml:lang="en">BPMN</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_9df425ae_8563_43f5_9817_636ec5daa416"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_6d33a138_28f8_4043_8bcc_17c2111d37e1 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_6d33a138_28f8_4043_8bcc_17c2111d37e1">
+        <rdfs:label xml:lang="en">Strategy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_72205bac_6c08_4ee7_aae9_df566c3e50ec -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_72205bac_6c08_4ee7_aae9_df566c3e50ec">
+        <rdfs:label xml:lang="en">Gap</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_74418c2c_442b_46d2_8275_a19663940387 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_74418c2c_442b_46d2_8275_a19663940387">
+        <rdfs:label xml:lang="en">Orchestration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_77e5eaf5_59ba_482b_8db0_2999a22f0491 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_77e5eaf5_59ba_482b_8db0_2999a22f0491">
+        <rdfs:label xml:lang="en">Pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_793baa32_8a65_4320_92bf_1f7917954976 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_793baa32_8a65_4320_92bf_1f7917954976">
+        <rdfs:label xml:lang="en">Reference Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3eee8ed4_b4bb_4187_a775_5c2676f6c48d"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_7a603c5c_4561_49ac_88be_464815a0bc78 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_7a603c5c_4561_49ac_88be_464815a0bc78">
+        <rdfs:label xml:lang="en">Enterprise Service Bus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_171d3cea_3a9d_4727_9cb4_3c397b2eb3fe"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_93e58885_24d5_4a73_8ab9_3ab4cc9ff6fa -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_93e58885_24d5_4a73_8ab9_3ab4cc9ff6fa">
+        <rdfs:label xml:lang="en">Performance Reference Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_793baa32_8a65_4320_92bf_1f7917954976"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_96d41dbb_05d4_4265_a6b7_72ee87bfdeea -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_96d41dbb_05d4_4265_a6b7_72ee87bfdeea">
+        <rdfs:label xml:lang="en">Quality Attribute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_9df425ae_8563_43f5_9817_636ec5daa416 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_9df425ae_8563_43f5_9817_636ec5daa416">
+        <rdfs:label xml:lang="en">Diagram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3eee8ed4_b4bb_4187_a775_5c2676f6c48d"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_9e4de6f0_2361_4328_b293_0a676a0a0a46 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_9e4de6f0_2361_4328_b293_0a676a0a0a46">
+        <rdfs:label xml:lang="en">Software Architecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_a474af7c_700d_4f84_855f_a0f3a9ef0991 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_a474af7c_700d_4f84_855f_a0f3a9ef0991">
+        <rdfs:label xml:lang="en">Standard</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_a718d48c_e2fa_473e_a0d3_04e43ff64065 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_a718d48c_e2fa_473e_a0d3_04e43ff64065">
+        <rdfs:label xml:lang="en">Migration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_a814b973_e8c5_4865_ae68_dcc6dcdf5b62 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_a814b973_e8c5_4865_ae68_dcc6dcdf5b62">
+        <rdfs:label xml:lang="en">Portfolio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d63b6bbe_ed99_4074_a8b4_9b9cb5199a78"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ae0f2ec3_27de_49e8_9a6f_5e642c67292d -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ae0f2ec3_27de_49e8_9a6f_5e642c67292d">
+        <rdfs:label xml:lang="en">Service</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b0d14d23_77ea_4a8d_bf5d_6a6470273a43 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b0d14d23_77ea_4a8d_bf5d_6a6470273a43">
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b2bf430d_185a_4260_bf48_210feeaabd74 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b2bf430d_185a_4260_bf48_210feeaabd74">
+        <rdfs:label xml:lang="en">Style</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b4572d0c_4517_4d48_a89f_72b4fe77c1b9 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b4572d0c_4517_4d48_a89f_72b4fe77c1b9">
+        <rdfs:label xml:lang="en">Assessment</rdfs:label>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b48861d7_cf15_41c7_b9a6_0d224626b113 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b48861d7_cf15_41c7_b9a6_0d224626b113">
+        <rdfs:label xml:lang="en">Service Oriented Enterprise</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_e27d22b2_997d_43dd_9040_074923680b3a"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b555bee8_74e4_4fd5_87c8_fb3497142bc5 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b555bee8_74e4_4fd5_87c8_fb3497142bc5">
+        <rdfs:label xml:lang="en">Guideline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b7486abc_5c18_4dd5_bfab_744061a56c47 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b7486abc_5c18_4dd5_bfab_744061a56c47">
+        <rdfs:label xml:lang="en">Principle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    <Axiom>
+        <rdfs:comment>princples are part of business</rdfs:comment>
+        <annotatedSource rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b7486abc_5c18_4dd5_bfab_744061a56c47"/>
+        <annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <annotatedTarget>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </annotatedTarget>
+    </Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_bbfb2eaa_5a44_4bbf_be86_2b8d9e1b429c -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_bbfb2eaa_5a44_4bbf_be86_2b8d9e1b429c">
+        <rdfs:label xml:lang="en">Enterprise Architecture Framework</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_2523f166_9143_49f6_aa64_60a0941e712d"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_bec809c5_a18c_4d54_ae49_a3d115b710a1 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_bec809c5_a18c_4d54_ae49_a3d115b710a1">
+        <rdfs:label xml:lang="en">Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_c2190de0_fc48_4f02_ae9e_be61622ca50b -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_c2190de0_fc48_4f02_ae9e_be61622ca50b">
+        <rdfs:label xml:lang="en">UML</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_9df425ae_8563_43f5_9817_636ec5daa416"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_c31c6a09_aa54_463d_9495_d27b88d238e8 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_c31c6a09_aa54_463d_9495_d27b88d238e8">
+        <rdfs:label xml:lang="en">Business Reference Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_793baa32_8a65_4320_92bf_1f7917954976"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_c5106f3f_d11e_404c_88eb_1cf2027ca09e -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_c5106f3f_d11e_404c_88eb_1cf2027ca09e">
+        <rdfs:label xml:lang="en">to-be Architecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cc71de76_cf50_445d_be8e_87da471629a4 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cc71de76_cf50_445d_be8e_87da471629a4">
+        <rdfs:label xml:lang="en">Enterprise Architecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4">
+        <rdfs:label xml:lang="en">Abstraction</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d0c44f61_0727_40e3_9e1c_892859dc5ebb -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d0c44f61_0727_40e3_9e1c_892859dc5ebb">
+        <rdfs:label xml:lang="en">Workflow</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a">
+        <rdfs:label xml:lang="en">Architecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d63b6bbe_ed99_4074_a8b4_9b9cb5199a78 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d63b6bbe_ed99_4074_a8b4_9b9cb5199a78">
+        <rdfs:label xml:lang="en">Project</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_dd8459a7_2bcc_4c30_919c_f60543c47ece -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_dd8459a7_2bcc_4c30_919c_f60543c47ece">
+        <rdfs:label xml:lang="en">Integration Pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_77e5eaf5_59ba_482b_8db0_2999a22f0491"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_dff7b23e_a4fe_4ac9_baf5_3aa437cc4d7f -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_dff7b23e_a4fe_4ac9_baf5_3aa437cc4d7f">
+        <rdfs:label xml:lang="en">Composite Service</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ae0f2ec3_27de_49e8_9a6f_5e642c67292d"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_e27d22b2_997d_43dd_9040_074923680b3a -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_e27d22b2_997d_43dd_9040_074923680b3a">
+        <rdfs:label xml:lang="en">Enterprise</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_02558871_f13f_42f5_bca7_2e2c495e5b3c"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_e645eab0_0990_4c14_a5de_5502aaaecf23 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_e645eab0_0990_4c14_a5de_5502aaaecf23">
+        <rdfs:label xml:lang="en">Analysis Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_b4572d0c_4517_4d48_a89f_72b4fe77c1b9"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_e76b3705_edfe_4dbf_b1d3_cc0c24cad9fd -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_e76b3705_edfe_4dbf_b1d3_cc0c24cad9fd">
+        <rdfs:label xml:lang="en">Enterprise Repository</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ea3d636e_1f0e_406b_9020_9a68f215dbd9 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ea3d636e_1f0e_406b_9020_9a68f215dbd9">
+        <rdfs:label xml:lang="en">Choreography</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ebf5b572_79d0_4e1f_b81d_b91fd4774ebe -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ebf5b572_79d0_4e1f_b81d_b91fd4774ebe">
+        <rdfs:label xml:lang="en">Data Reference Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_793baa32_8a65_4320_92bf_1f7917954976"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ee373b79_443e_428d_8f90_ad57f650d095 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ee373b79_443e_428d_8f90_ad57f650d095">
+        <rdfs:label xml:lang="en">Component</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ee898198_61b7_4aef_8a52_7cbb0fd7045c -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_ee898198_61b7_4aef_8a52_7cbb0fd7045c">
+        <rdfs:label xml:lang="en">as-is Architecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_d299ff13_9753_4dc2_a8bd_94d92567ac0a"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_f225d09a_6466_4f91_a404_e23133ddbd8f -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_f225d09a_6466_4f91_a404_e23133ddbd8f">
+        <rdfs:label xml:lang="en">Budget</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_cf2f87eb_4014_4fa1_b0a1_a390935781b4"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLObjectProperty_a963b54f_b7f5_4960_b427_46b465b9d154"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_5c9c2614_c4d8_4b26_9c4b_d8d0afb6a8e8"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_f80997d6_974a_4e03_970c_b55ba160bf9d -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_f80997d6_974a_4e03_970c_b55ba160bf9d">
+        <rdfs:label xml:lang="en">Maturity Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_3eee8ed4_b4bb_4187_a775_5c2676f6c48d"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_156491dc_9343_4c13_8396_12e8210d99e6 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_156491dc_9343_4c13_8396_12e8210d99e6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_e645eab0_0990_4c14_a5de_5502aaaecf23"/>
+        <rdfs:label xml:lang="en">ATAM</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_16709c62_b158_4dcf_ad5a_c03c773a5fe8 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_16709c62_b158_4dcf_ad5a_c03c773a5fe8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_4bb359cc_3b15_48e2_b857_14b9041900c6"/>
+        <rdfs:label xml:lang="en">SOAP</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_2655a00c_10e1_417f_9e2c_a4b3b5a76c70 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_2655a00c_10e1_417f_9e2c_a4b3b5a76c70">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_4bb359cc_3b15_48e2_b857_14b9041900c6"/>
+        <rdfs:label xml:lang="en">WSDL</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_32cbd073_4b86_4ca7_8ec6_724cd9fdf753 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_32cbd073_4b86_4ca7_8ec6_724cd9fdf753">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_bbfb2eaa_5a44_4bbf_be86_2b8d9e1b429c"/>
+        <rdfs:label xml:lang="en">TOGAF</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_36d34239_79ef_4318_b773_0b7c38d58c55 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_36d34239_79ef_4318_b773_0b7c38d58c55">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_f80997d6_974a_4e03_970c_b55ba160bf9d"/>
+        <rdfs:label xml:lang="en">CMMI</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_4f587759_c73c_473d_9156_bc12cbdffeb6 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_4f587759_c73c_473d_9156_bc12cbdffeb6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_bbfb2eaa_5a44_4bbf_be86_2b8d9e1b429c"/>
+        <rdfs:label xml:lang="en">FEAF</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_59c2f18d_7188_40e5_8016_300098a0d4ed -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_59c2f18d_7188_40e5_8016_300098a0d4ed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_4bb359cc_3b15_48e2_b857_14b9041900c6"/>
+        <rdfs:label xml:lang="en">XML</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_8aa66de0_947e_4eb6_a02c_7e2d6c3af334 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_8aa66de0_947e_4eb6_a02c_7e2d6c3af334">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_f80997d6_974a_4e03_970c_b55ba160bf9d"/>
+        <rdfs:label xml:lang="en">DoC US ACMM</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_8b29a7f8_e259_4499_83c3_26133bfc2287 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_8b29a7f8_e259_4499_83c3_26133bfc2287">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_bbfb2eaa_5a44_4bbf_be86_2b8d9e1b429c"/>
+        <rdfs:label xml:lang="en">DoDAF</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_9b0c1200_7322_4eb7_9b11_51b23c4df621 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_9b0c1200_7322_4eb7_9b11_51b23c4df621">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_54ae9bce_fbc5_42a3_a3a4_f84ad9b3778e"/>
+        <rdfs:label xml:lang="en">ADM</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_ac19ff77_ee9e_480f_b2b5_df75e484ea4b -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_ac19ff77_ee9e_480f_b2b5_df75e484ea4b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_e645eab0_0990_4c14_a5de_5502aaaecf23"/>
+        <rdfs:label xml:lang="en">CBAM</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_e0bf5e42_20ba_4594_826e_03ceb498eea9 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_e0bf5e42_20ba_4594_826e_03ceb498eea9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_bbfb2eaa_5a44_4bbf_be86_2b8d9e1b429c"/>
+        <rdfs:label xml:lang="en">Zachman</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_f90ccd84_75c9_4297_992b_2a404d03371a -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLNamedIndividual_f90ccd84_75c9_4297_992b_2a404d03371a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/3/EA-ONTOLOGY#OWLClass_54ae9bce_fbc5_42a3_a3a4_f84ad9b3778e"/>
+        <rdfs:label xml:lang="en">EAP</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
